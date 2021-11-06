@@ -1,6 +1,67 @@
-div {
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hiders {
+  display: none;
+}
+
+.buttons {
+  font-size: 15px;
+  background: white;
+  width: 45%;
+  height: 6vh;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0.5px 0.5px 1.5px .5px darkgray;
+          box-shadow: 0.5px 0.5px 1.5px .5px darkgray;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  margin: 3rem 1rem .5rem 1rem;
+  font-size: 27px;
+}
+
+.imaghead {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.parraf {
+  padding: 2.5rem;
+  padding-top: .5rem;
+  font-size: 15px;
+  font: 'Rubik', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
