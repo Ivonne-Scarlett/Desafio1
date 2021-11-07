@@ -11,4 +11,85 @@ $Nverydark:hsl(229, 31%, 21%);
     font-size: 18px;
 }
 
+main{
+    display:flex;
+    flex-direction: column;
+}
 
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+li{
+    padding: .6rem;
+    display: inline-block;
+}
+
+
+.p-content{
+    margin: 1rem;
+    text-align: center;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.div-menu{
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: solid gray 1px;
+    img{
+        padding-bottom: 1rem;
+    }
+    li{
+       display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+.ul-content{
+    width: 90%;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    left:5%;
+    justify-content: space-between;
+    .div-menu{
+        img:hover + .hover{
+
+            display: block;
+        }
+    }
+    .div-menu .img-width{
+        width:100%;
+        align-items: center;
+    }
+}
+
+.desp{
+        background-color: yellow;
+        padding: 20px;
+        display: none;
+        flex-wrap: wrap-reverse;
+}
+
+.question .div-que .ul-content .div-menu img:hover + .desp {   
+    display: block;
+    
+  }
