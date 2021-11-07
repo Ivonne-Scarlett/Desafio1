@@ -12,14 +12,20 @@ body {
   height: auto;
 }
 
-nav {
+body nav {
   padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .hiders {
@@ -32,8 +38,18 @@ nav {
   width: 45%;
   height: 6vh;
   border-radius: .5rem;
-  -webkit-box-shadow: 0.5px 0.5px 1.5px .5px darkgray;
-          box-shadow: 0.5px 0.5px 1.5px .5px darkgray;
+  -webkit-box-shadow: 0px 0.2px 0.5px 0.2px #9194a1;
+          box-shadow: 0px 0.2px 0.5px 0.2px #9194a1;
+}
+
+.buttons1 {
+  font-size: 15px;
+  background: white;
+  width: 80%;
+  height: 6vh;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0px 0.2px 0.5px 0.2px #9194a1;
+          box-shadow: 0px 0.2px 0.5px 0.2px #9194a1;
 }
 
 header {
@@ -63,5 +79,168 @@ header h1 {
   padding-top: .5rem;
   font-size: 15px;
   font: 'Rubik', sans-serif;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5368df;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  text-indent: 1px;
+}
+
+footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: #252b46;
+}
+
+footer section img {
+  margin-top: 3rem;
+}
+
+.espacios {
+  letter-spacing: 4px;
+  font-size: 10pt;
+}
+
+.fotletre {
+  padding: 1rem;
+  font-size: 17pt;
+}
+
+.intam {
+  height: 5vh;
+  width: 80%;
+  border-radius: .5rem;
+}
+
+.reng {
+  margin-bottom: 1rem;
+}
+
+.reng1 {
+  margin-bottom: 3rem;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.conteinerd {
+  width: 100%;
+  height: 30vh;
+}
+
+.backimg {
+  background: white;
+  border-radius: .5rem;
+  padding: .3rem;
+}
+
+.fotimg {
+  margin-top: 2rem;
+  margin: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-items: center;
+  }
+  nav .div1nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    height: 10vh;
+  }
+  nav .div1nav .logpad {
+    padding-left: 30%;
+  }
+  nav .div2nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    height: 10vh;
+  }
+  nav .div2nav .links2 {
+    text-decoration: none;
+    color: #252b46;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  nav .div3nav {
+    display: none;
+  }
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 /*# sourceMappingURL=style.css.map */
