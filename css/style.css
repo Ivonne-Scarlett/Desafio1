@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @charset "UTF-8";
+=======
+>>>>>>> develop
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +11,7 @@
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,10 +56,91 @@ main {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+=======
+body {
+  width: 100%;
+  height: auto;
+}
+
+body nav {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.hiders {
+  display: none;
+}
+
+.buttons {
+  font-size: 15px;
+  background: white;
+  width: 45%;
+  height: 6vh;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0px 0.2px 0.5px 0.2px #9194a1;
+          box-shadow: 0px 0.2px 0.5px 0.2px #9194a1;
+}
+
+.buttons1 {
+  font-size: 15px;
+  background: white;
+  width: 80%;
+  height: 6vh;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0px 0.2px 0.5px 0.2px #9194a1;
+          box-shadow: 0px 0.2px 0.5px 0.2px #9194a1;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  margin: 3rem 1rem .5rem 1rem;
+  font-size: 27px;
+}
+
+.imaghead {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.parraf {
+  padding: 2.5rem;
+  padding-top: .5rem;
+  font-size: 15px;
+  font: 'Rubik', sans-serif;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+>>>>>>> develop
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -66,6 +151,23 @@ main {
 }
 
 .section4 .card {
+=======
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5368df;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  text-indent: 1px;
+}
+
+footer section {
+>>>>>>> develop
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,6 +178,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+<<<<<<< HEAD
   border-radius: 0.75rem;
   border: none;
   -webkit-box-shadow: 2px 4px 6px #F2F3F2, -2px 4px 6px #F2F3F2;
@@ -112,10 +215,83 @@ main {
 /* Diseño desktop*/
 @media only screen and (min-width: 992px) {
   .section4 .card-wrapper {
+=======
+  width: 100%;
+  background: #252b46;
+}
+
+footer section img {
+  margin-top: 3rem;
+}
+
+.espacios {
+  letter-spacing: 4px;
+  font-size: 10pt;
+}
+
+.fotletre {
+  padding: 1rem;
+  font-size: 17pt;
+}
+
+.intam {
+  height: 5vh;
+  width: 80%;
+  border-radius: .5rem;
+}
+
+.reng {
+  margin-bottom: 1rem;
+}
+
+.reng1 {
+  margin-bottom: 3rem;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.conteinerd {
+  width: 100%;
+  height: 30vh;
+}
+
+.backimg {
+  background: white;
+  border-radius: .5rem;
+  padding: .3rem;
+}
+
+.fotimg {
+  margin-top: 2rem;
+  margin: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+>>>>>>> develop
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+<<<<<<< HEAD
     width: 70%;
     height: 30rem;
     -webkit-box-align: start;
@@ -146,5 +322,184 @@ main {
   .section4 .p-content {
     width: 40%;
   }
+=======
+    height: 10vh;
+    width: 100%;
+    justify-items: center;
+  }
+  nav .div1nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    height: 10vh;
+  }
+  nav .div1nav .logpad {
+    padding-left: 30%;
+  }
+  nav .div2nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    height: 10vh;
+  }
+  nav .div2nav .links2 {
+    text-decoration: none;
+    color: #252b46;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  nav .div3nav {
+    display: none;
+  }
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
+}
+
+li {
+  padding: .6rem;
+  display: inline-block;
+}
+
+.p-content {
+  margin: 1rem;
+  text-align: center;
+}
+
+.question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.div-menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  border-bottom: solid gray 1px;
+}
+
+.div-menu img {
+  padding-bottom: 1rem;
+}
+
+.div-menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+}
+
+.ul-content {
+  width: 90%;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ul-content .div-menu img:hover + .hover {
+  display: block;
+}
+
+.ul-content .div-menu .img-width {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.desp {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.question .div-que .ul-content .div-menu img:hover + .desp {
+  display: block;
+>>>>>>> develop
 }
 /*# sourceMappingURL=style.css.map */
