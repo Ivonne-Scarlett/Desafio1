@@ -11,4 +11,107 @@ $Nverydark:hsl(229, 31%, 21%);
     font-size: 18px;
 }
 
+@media only screen and ( min-width: 375px ){
 
+    main{
+        width: 100%;
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    section.features-wrapper{
+        width: 90%;
+        position: relative;
+        text-align: center;
+        h2{
+            font-size: 20px;
+            color: $Nverydark;
+            margin: 5% 0;
+        }
+        p{
+            color: $Ngrayish;
+            line-height: 1.4rem;
+            margin-bottom: 10%;
+        }
+        ul{
+            list-style: none;
+            li{
+                border-left-style: none;
+                border-right-style: none;
+                border-top: 1px solid $Ngrayish;
+                padding: 5% 0;
+                &:last-of-type{
+                    border-bottom: 1px solid $Ngrayish;
+                }
+            
+                a{
+                    height: 100%;
+                    text-decoration: none;
+                    font-weight: 500;
+                    color: $Nverydark;
+                    font-size: 18px;
+                    &:hover{
+                        padding: 4.5% 0;
+                        border-bottom: 0.2rem solid $Psoftred ;
+                    }
+                }
+            }
+        }
+    }
+
+
+    section.bookmark-wrapper{
+        width: 100%;
+        background-color:transparent;
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        div.image-bk-wrapper{
+            width: 100%;
+            margin: 10% 0;
+            height: 42%;
+            position: relative;
+            background-color:transparent;
+            div.bg-form{
+                top: 30%;
+                width: 85%;
+                height: 80%;
+                position: absolute;
+                background-color: $Psoftblue;
+                border-radius: 0 0 35%;
+            }
+            img{
+                width: 85%;
+                position: relative;
+                left: 10%;
+            }
+        }
+
+
+        div.card-bookmark{
+            position: relative;
+            align-items: center;
+            text-align: center;
+            width: 90%;
+            h2{
+                font-size: 20px;
+                color: $Nverydark;
+                margin: 5% 0;
+            }
+            p{
+                color: $Ngrayish;
+                line-height: 1.4rem;
+                margin-bottom: 10%;
+            }
+            button{
+                display: none;
+            }
+        }
+        
+    }
+
+
+}
