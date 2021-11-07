@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+=======
+>>>>>>> develop
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +11,52 @@
   font-size: 18px;
 }
 
+<<<<<<< HEAD
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section4 h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.section4 p {
+  color: #9194a1;
+  text-align: center;
+}
+
+.section4 .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+=======
 body {
   width: 100%;
   height: auto;
@@ -85,10 +135,23 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+>>>>>>> develop
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.section4 .card {
+=======
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -104,6 +167,7 @@ footer h4 {
 }
 
 footer section {
+>>>>>>> develop
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,6 +178,44 @@ footer section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+<<<<<<< HEAD
+  border-radius: 0.75rem;
+  border: none;
+  -webkit-box-shadow: 2px 4px 6px #F2F3F2, -2px 4px 6px #F2F3F2;
+          box-shadow: 2px 4px 6px #F2F3F2, -2px 4px 6px #F2F3F2;
+  width: 100%;
+  height: 22rem;
+  margin: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.section4 .card .space-icon {
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.section4 .card .space-button {
+  padding-bottom: 0.5rem;
+}
+
+.section4 .card .space-dots {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+
+.section4 .card .buttons {
+  background-color: #5368df;
+  color: white;
+  font-size: 14px;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  width: 80%;
+}
+
+/* Diseño desktop*/
+@media only screen and (min-width: 992px) {
+  .section4 .card-wrapper {
+=======
   width: 100%;
   background: #252b46;
 }
@@ -184,10 +286,43 @@ footer section img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+>>>>>>> develop
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+<<<<<<< HEAD
+    width: 70%;
+    height: 30rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 2rem;
+  }
+  .section4 .card-wrapper .card {
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .section4 .card-wrapper .card-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .section4 .card-wrapper .card-down {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .section4 .p-content {
+    width: 40%;
+  }
+=======
     height: 10vh;
     width: 100%;
     justify-items: center;
@@ -365,5 +500,6 @@ li {
 
 .question .div-que .ul-content .div-menu img:hover + .desp {
   display: block;
+>>>>>>> develop
 }
 /*# sourceMappingURL=style.css.map */
